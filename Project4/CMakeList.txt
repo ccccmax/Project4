@@ -1,0 +1,5 @@
+cmake_minmum_required(VERSION 3.10)
+
+project(Matrixmul)
+
+add_executable(Matrix main.cpp matrix.cpp matrix.h)
